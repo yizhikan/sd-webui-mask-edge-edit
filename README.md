@@ -101,6 +101,8 @@ This is my second inpaint details. (img17)
 
 !!!!ATTENTION: Denoising strength is 0.4. Mask blur is 20. That is different from Step 4 !!!!
 
+!!!!ATTENTION: What you second inpaint is your first inpaint result !!!!
+
 <img src="https://user-images.githubusercontent.com/56151705/231735689-bd85fc06-9593-4632-b6e1-d9fbd442a50c.png"  width="400"/>
 
 
