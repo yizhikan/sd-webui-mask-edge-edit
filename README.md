@@ -57,3 +57,10 @@ Comparison: Before edge edit  VS  After edge edit
 
 <img src="https://user-images.githubusercontent.com/56151705/231705016-19ffd460-8146-4d56-a5c9-9e9d8c9731f5.png"  width="800"/>
 
+# How to use
+
+Step 1: Clone to your ./stable-diffusion-webui/extensions
+
+Step 2: You can use it in 'txt2img' or 'img2img'
+
+
