@@ -45,7 +45,7 @@ But when you check the details near the mask edge, you will find something wrong
 
 You can see the same phenomenon near the skirt edge.
 
-After Mask Edge Editting, actually it is inpainting secondly, you will find the quality of edges become better. Like this (img7)
+After Mask Edge Editting, actually it is second inpainting, you will find the quality of edges become better. Like this (img7)
 
 <img src="https://user-images.githubusercontent.com/56151705/231702341-ffb8f2b0-71ec-4362-9d6e-0fff0611d0d5.png"  width="400"/>
 
