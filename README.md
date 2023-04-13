@@ -39,3 +39,21 @@ Look at the following generate image. It may be nice if you don't check any deta
 
 <img src="https://user-images.githubusercontent.com/56151705/231698520-00bacb87-4568-457f-99ad-50d357354cf3.png"  width="400"/>
 
+But when you check the details near the mask edge, you will find something wrong. Around the edge, area inside the mask is clean however outsides is dusty.
+
+<img src="https://user-images.githubusercontent.com/56151705/231700658-f8035312-70c7-4d13-9db4-6353f9da4f53.png"  width="400"/>
+
+You can see the same phenomenon near the skirt edge.
+
+After Mask Edge Editting, actually it is inpainting secondly, you will find the quality of edges become better. Like this
+
+<img src="https://user-images.githubusercontent.com/56151705/231702341-ffb8f2b0-71ec-4362-9d6e-0fff0611d0d5.png"  width="400"/>
+
+Zoom it
+
+<img src="https://user-images.githubusercontent.com/56151705/231702983-6add26bf-40a5-446b-b010-2cf2174cf42e.png"  width="400"/>
+
+Comparison: Before edge edit  VS  After edge edit
+
+<img src="https://user-images.githubusercontent.com/56151705/231705016-19ffd460-8146-4d56-a5c9-9e9d8c9731f5.png"  width="800"/>
+
