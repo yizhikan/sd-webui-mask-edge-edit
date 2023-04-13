@@ -2,6 +2,9 @@
 
 A stable-diffusion-webui extension for edit your mask edge
 
+Bilibili Link：
+- [sd新插件！解决生成图边缘色差问题！Segment Anything等语义分割生成的mask有问题？没道理的，弄它！](https://www.bilibili.com/video/BV1Ao4y1H7tt/?share_source=copy_web&vd_source=02d889cf3f697daea1be6a18a7c7d43c)
+
 To solve the problem that the masked area cannot perfectly cover the target
 
 The mask image may be the predict result of Segment Anything Model, or other popular segment models.
