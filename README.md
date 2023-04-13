@@ -61,11 +61,11 @@ Comparison: Before edge edit  VS  After edge edit (img10)
 
 Step 1: Clone to your ./stable-diffusion-webui/extensions
 
-Step 2: You can use it in 'txt2img' or 'img2img'
+Step 2: You can use it in 'txt2img' or 'img2img' (img11)
 
 <img src="https://user-images.githubusercontent.com/56151705/231714538-21118ce3-c7a3-431d-bef6-6434bc3ff857.PNG"  width="400"/>
 
-Step 3: Put your mask image (it comes from the predict result of segment model) and original image, Like this
+Step 3: Put your mask image (it comes from the predict result of segment model) and original image, Like this (img12)
 
 <img src="https://user-images.githubusercontent.com/56151705/231716232-7c47a12a-f12c-437e-950c-ddca54509925.PNG"  width="400"/>
 
@@ -73,12 +73,17 @@ Step 4: Choose suitable parameter for your first inpaint!
 
 The goal of your first inpaint is to make sure the mask can perfectly cover the object instead of keeping any object pixel remain.
 
-In my example, the original mask is not perfect cover, as you see, in first row, they are original mask and original image. I need to expand the mask image, so I need to set the 'Expand mask area(small)' to 15. You may need to try several times to make sure the expanded mask can cover it while it can't be expanded too much. By the way, the original image here is 1024 * 1024, check it seriously. 
+In my example, the original mask is not perfect cover, as you see, in first row, they are original mask and original image. I need to expand the mask image, so I need to set the 'Expand mask area(small)' to 15, then click the 'Preview mask edit' bottom. You may need to try several times to make sure the expanded mask can cover it while it can't be expanded too much. By the way, the original image here is 1024 * 1024, check it seriously.  (img13)
 
 <img src="https://user-images.githubusercontent.com/56151705/231718706-f5503522-dc20-4ab7-bfa2-fd219a9cb100.PNG"  width="400"/>
 
-Now the third row is what I need. Use the mask which is from the third row to inpaint. The result is img5 (see line.40).
+Now the third row is what I need. Use the mask which is from the third row to inpaint. The result of inpainting is img5 (see line.40).
 
+Maybe your mask is overlarge, set the 'Shrink the mask area' to suitable value, then click the 'Preview mask edit' bottom. The second row is what you need(see img13).
+
+The meaning of each row of images see below.(img14) It is very detailed
+
+<img src="https://user-images.githubusercontent.com/56151705/231725526-5164fb23-5327-4a2d-9428-aea9e56984bc.PNG"  width="400"/>
 
 
 
