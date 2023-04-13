@@ -110,7 +110,6 @@ This is my second inpaint details. (img17)
 - [continue-revolution/sd-webui-segment-anything](https://github.com/continue-revolution/sd-webui-segment-anything)
 - [udon-universe/stable-diffusion-webui-extension-templates](https://github.com/udon-universe/stable-diffusion-webui-extension-templates)
 - [Developing extensions · AUTOMATIC1111/stable-diffusion-webui Wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Developing-extensions)
-- [Extensions · AUTOMATIC1111/stable-diffusion-webui Wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Extensions) (to read real extension code)
 
 
 
