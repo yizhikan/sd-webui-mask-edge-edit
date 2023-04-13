@@ -27,7 +27,7 @@ The problem will exist even in the generate image. (img4)
 
 <img src="https://user-images.githubusercontent.com/56151705/231697683-d527838d-fc0e-4d6e-b26a-45d9e06d0573.png"  width="400"/>
 
-So I think that will be a good choice to expand the mask area, which allows me to inpaint the girl
+So I think that it will be a good choice to expand the mask area, which allows me to inpaint the girl
 
 ## Second Problem
 
