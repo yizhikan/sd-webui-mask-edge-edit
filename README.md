@@ -63,4 +63,16 @@ Step 1: Clone to your ./stable-diffusion-webui/extensions
 
 Step 2: You can use it in 'txt2img' or 'img2img'
 
+<img src="https://user-images.githubusercontent.com/56151705/231714538-21118ce3-c7a3-431d-bef6-6434bc3ff857.PNG"  width="400"/>
+
+Step 3: Put your mask image (it comes from the predict result of segment model) and original image, Like this
+
+<img src="https://user-images.githubusercontent.com/56151705/231716232-7c47a12a-f12c-437e-950c-ddca54509925.PNG"  width="400"/>
+
+Step 4: Choose suitable parameter for your first inpaint!
+
+The goal of your first inpaint is to make sure the mask can perfectly cover the object instead of keeping any object pixel remain.
+
+In my example, 
+
 
