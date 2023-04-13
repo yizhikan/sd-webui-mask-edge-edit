@@ -73,18 +73,42 @@ Step 4: Choose suitable parameter for your first inpaint!
 
 The goal of your first inpaint is to make sure the mask can perfectly cover the object instead of keeping any object pixel remain.
 
-In my example, the original mask is not perfect cover, as you see, in first row, they are original mask and original image. I need to expand the mask image, so I need to set the 'Expand mask area(small)' to 15, then click the 'Preview mask edit' bottom. You may need to try several times to make sure the expanded mask can cover it while it can't be expanded too much. By the way, the original image here is 1024 * 1024, check it seriously.  (img13)
+In my example, the original mask is not perfect cover, as you see, in first row, they are original mask and original image. I need to expand the mask image, so I need to set the 'Expand mask area(small)' to 15, then click the 'Preview mask edit' botton. You may need to try several times to make sure the expanded mask can cover it while it can't be expanded too much. By the way, the original image here is 1024 * 1024, check it seriously.  (img13)
 
 <img src="https://user-images.githubusercontent.com/56151705/231718706-f5503522-dc20-4ab7-bfa2-fd219a9cb100.PNG"  width="400"/>
 
-Now the third row is what I need. Use the mask which is from the third row to inpaint. The result of inpainting is img5 (see line.40).
+Now the third row is what I need. Use the mask which is from the third row to inpaint. The result of inpainting is img5 (see line.40). This is my inpaint details. (img14) 
 
-Maybe your mask is overlarge, set the 'Shrink the mask area' to suitable value, then click the 'Preview mask edit' bottom. The second row is what you need(see img13).
+!!!!ATTENTION: Denoising strength is 0.95. Mask blur is 4. That is different from Step 5 !!!!
 
-The meaning of each row of images see below.(img14) It is very detailed
+<img src="https://user-images.githubusercontent.com/56151705/231730351-686cfdcc-e73a-41b7-8c17-2edd0f820b4b.png"  width="800"/>
 
-<img src="https://user-images.githubusercontent.com/56151705/231725526-5164fb23-5327-4a2d-9428-aea9e56984bc.PNG"  width="400"/>
+Maybe your mask is overlarge, set the 'Shrink the mask area' to suitable value, then click the 'Preview mask edit' botton. The second row is what you need(see img13).
 
+The meaning of each row of images see below.(img15) It is very detailed
+
+<img src="https://user-images.githubusercontent.com/56151705/231725526-5164fb23-5327-4a2d-9428-aea9e56984bc.PNG"  width="800"/>
+
+Step 5: Make your edge mask. Choose suitable values for 'Shrink the mask area' and 'Expand mask area(big)', and then click the 'Preview mask edit' bottom, you can get the edge mask in the fifth row.  (img16)
+
+<img src="https://user-images.githubusercontent.com/56151705/231732169-a53c874c-061f-4b73-83d5-e287b66e358f.PNG"  width="400"/>
+
+!!!!ATTENTION: 'Shrink the mask area' and 'Expand mask area(big)' cannot be set too large or too small!!!!
+
+TOO SMALL: cannot solve problem 2   TOO LARGE: it will generate other things. You can try it
+
+This is my second inpaint details. (img17) 
+
+!!!!ATTENTION: Denoising strength is 0.4. Mask blur is 20. That is different from Step 4 !!!!
+
+<img src="https://user-images.githubusercontent.com/56151705/231735689-bd85fc06-9593-4632-b6e1-d9fbd442a50c.png"  width="400"/>
+
+
+## Ref.
+- [continue-revolution/sd-webui-segment-anything](https://github.com/continue-revolution/sd-webui-segment-anything)
+- [udon-universe/stable-diffusion-webui-extension-templates](https://github.com/udon-universe/stable-diffusion-webui-extension-templates)
+- [Developing extensions · AUTOMATIC1111/stable-diffusion-webui Wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Developing-extensions)
+- [Extensions · AUTOMATIC1111/stable-diffusion-webui Wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Extensions) (to read real extension code)
 
 
 
