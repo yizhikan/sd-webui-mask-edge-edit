@@ -66,10 +66,10 @@ def edgeEdit(src_grey, src_original, kernalsizesmall=10, kernalsizebig=30, kerna
     resMaskImage.append(Image.fromarray(cv2.cvtColor(resSamllMask, cv2.COLOR_BGR2RGB)))
     resOriginal.append(Image.fromarray(cv2.cvtColor(resSmall, cv2.COLOR_BGR2RGB)))
     # dAndBig
-    resMaskImage.append(Image.fromarray(cv2.cvtColor(resDAndBigMask, cv2.COLOR_BGR2RGB)))
+    resMaskImage.append(Image.fromarray(cv2.cvtColor(resSmallAndBigMask, cv2.COLOR_BGR2RGB)))
     resOriginal.append(Image.fromarray(cv2.cvtColor(resSmallAndBig, cv2.COLOR_BGR2RGB)))
     # smallAndBig
-    resMaskImage.append(Image.fromarray(cv2.cvtColor(resSmallAndBigMask, cv2.COLOR_BGR2RGB)))
+    resMaskImage.append(Image.fromarray(cv2.cvtColor(resDAndBigMask, cv2.COLOR_BGR2RGB)))
     resOriginal.append(Image.fromarray(cv2.cvtColor(resDAndBig, cv2.COLOR_BGR2RGB)))
 
     return resMaskImage + resOriginal
