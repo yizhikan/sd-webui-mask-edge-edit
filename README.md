@@ -23,7 +23,7 @@ Then I add the mask with the original image, I find that the masked area cannot 
 
 <img src="https://user-images.githubusercontent.com/56151705/231693213-065e26e2-91be-49e0-8fc6-1a3924430972.png"  width="400"/>
 
-The problem will exit even in the generate image. (img4)
+The problem will exist even in the generate image. (img4)
 
 <img src="https://user-images.githubusercontent.com/56151705/231697683-d527838d-fc0e-4d6e-b26a-45d9e06d0573.png"  width="400"/>
 
